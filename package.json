@@ -1,0 +1,47 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|ts|tsx|json|yml|md|mdx|css)\"",
+    "check-format": "yarn run prettier --list-different",
+    "format": "yarn run prettier --write",
+    "lint": "eslint . --ignore-path .gitignore --ext .js,.ts,.tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/styled-components": "^5.1.7",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-jest-dom": "^3.6.5",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-testing-library": "^3.10.1",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "@stitches/react": "0.1.0-canary.12",
+    "next": "10.0.7",
+    "next-compose-plugins": "^2.2.1",
+    "next-mdx-enhanced": "^5.0.0",
+    "next-transpile-modules": "^6.3.0",
+    "prism-react-renderer": "^1.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-is": "^17.0.1",
+    "react-live": "^2.2.3",
+    "remark": "^13.0.0",
+    "remark-autolink-headings": "^6.0.1",
+    "remark-slug": "^6.0.0",
+    "styled-components": "^5.2.1"
+  }
+}
