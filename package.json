@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@stitches/react": "0.1.0-canary.12",
-    "next": "10.0.7",
+    "next": "12.1.0",
     "next-compose-plugins": "^2.2.1",
     "next-mdx-enhanced": "^5.0.0",
     "next-transpile-modules": "^6.3.0",
